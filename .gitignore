@@ -1,0 +1,7 @@
+/*.pyc
+Events.csv
+Logs/
+/*.log
+__pycache__/
+calendar-python.json
+client_secret.json
