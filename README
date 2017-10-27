@@ -1,0 +1,7 @@
+secrets.py to contain passwords and other sensitive info
+EMAIL            # not required
+EMAIL_PASSWORD   # not required
+CAL_ID
+
+To automate calendar set up cronjob to run ACAScraper.py
+Need a calendar-python.json file and client_secret.json file
