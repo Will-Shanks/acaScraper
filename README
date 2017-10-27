@@ -1,3 +1,6 @@
+Calendar:
+https://bitbucket.org/yumyum414/_acascraper
+
 secrets.py to contain passwords and other sensitive info
 EMAIL            # not required
 EMAIL_PASSWORD   # not required
