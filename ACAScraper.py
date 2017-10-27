@@ -7,6 +7,7 @@ from datetime import datetime
 from Event import Event
 from Schedule import Schedule
 from GoCal import GoCal
+from secrets import EMAIL, EMAIL_PASSWORD
 
 
 def GetDate(day):
@@ -50,10 +51,10 @@ def emailLog(currTime):
     with open(currTime.strftime('Logs/%Y-%m-%d.log'), 'r') as f:
         msg = f.read()
 
-    gmail_user = ''
-    gmail_pwd = ''
-    FROM = ''
-    TO = ['']
+    gmail_user = EMAIL
+    gmail_pwd = EMAIL_PASSWORD
+    FROM = EMAIL
+    TO = [EMAIL]
     SUBJECT = 'ACA Scraper Status'
     TEXT = msg
 

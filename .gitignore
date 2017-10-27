@@ -5,3 +5,5 @@ Logs/
 __pycache__/
 calendar-python.json
 client_secret.json
+secrets.py
+.idea/

@@ -1,7 +1,6 @@
 from __future__ import print_function
-# import httplib2
 import logging
-# import os
+from secrets import CAL_ID
 
 from apiclient import discovery
 from oauth2client import client
@@ -29,7 +28,7 @@ class GoCal:
         self.http = self.credentials.authorize(httplib2.Http())
         self.service = service = discovery.build('calendar', 'v3', http=self.http)
         # Cal ID for my personal 'RAGE' google calendar
-        self.CalID = ''
+        self.CalID = CAL_ID
 
 
     def get_credentials(self):
